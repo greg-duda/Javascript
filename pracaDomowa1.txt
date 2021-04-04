@@ -1,0 +1,74 @@
+/* ------1-----*/
+const name = "Karol"
+const age = 40
+const isOpen = true
+const stringBoolean = "true"
+const stringNumber = "100"
+/*-------2------*/
+console.log('Michał')
+console.log('Hello Ania')
+console.log(4)
+console.log(false)
+/*-------3-------*/
+console.log(name)
+console.log(age)
+console.log(isOpen)
+console.log(stringBoolean)
+console.log(stringNumber)
+/*-------4-------*/
+console.log(2 + 2)
+console.log('Michał' + ' Kowalski')
+console.log(2 + 2 * 2)
+/*-------5-------*/
+function sum2() {return ('Wynik, ') + (2 + 3)}
+console.log(sum2()) /*tutaj nie wiem czy dobrze zrozumiałem polecenie*/
+/*------6-------*/
+let placeToLive = "Warsaw"
+placeToLive = "Chicago"
+placeToLive = "New York"
+console.log(placeToLive)
+/*------7-------*/
+function sum() {console.log(2 + 2)}
+function helloWorld() {return 'Hello World'}
+function isOpen2() {return true}
+function modulo() {return 6 % 4}
+function power() {return 3 ** 4}
+function welcome() {return 'Hello, ' + 'how are you?'}
+function multiple() {return 5 * 60}
+function multiple2() {return 3 * 3600}
+function multiple3() {return 10 * 9 / 2}
+function minus() {return 10 - 200}
+/*--------8--------*/
+let arr = [1, 2, 3]
+let arr2 = ['BMW', 'Mercedes', 'Audi', 'Kia', 'Toyota']
+let arr3 = [true, false, true]
+let arr4 = []
+let arr5 = [34, true, false, 'sampletext', 'sampletext2']
+console.log(arr5[1])
+let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 123]
+console.log(myArray.length)
+let emptyArray = []
+emptyArray.push('wiesiek', 'alina', 34, false)
+console.log(emptyArray)
+/*---------9--------*/
+let emptyObj = {}
+let person = {name: 'iza'}
+let personDetails = {name: 'Greg', lastName: 'Duda', Age: 24, drivingLicense: true}
+console.log(personDetails.Age)
+console.log(personDetails)
+/*-------10--------*/
+function sum1(firstNumber, secondNumber) {return firstNumber + secondNumber}
+function sayHello(firstName) {return 'Dzień dobry ' + firstName}
+function trueOrFalse(word) {return word === true} /*-Tutaj też nie wiem czy dobrze zrozumiałem polecenie*/
+function modulo2(firstNumber, secondNumber) {return firstNumber % secondNumber}
+function power2(firstNumber, secondNumber) {return firstNumber ** secondNumber}
+function mergedStrings(firstWord, secondWord) {return firstWord + secondWord}
+function minutesToSeconds(minutes) {return minutes * 60}
+function hoursToSeconds (hours) {return hours * 3600}
+function areaOfTriangle(width, height) {return width * height * 0,5}
+function yearsToDays(years) {return years * 365}
+function power4(number) {return number ** number}
+function sideOfTriangle(side1, side2) {return (side1 + side2) - 1}
+function hello(name) {return 'Cześć, ' + name + '!'}
+function ageByBirthyear(year) {return 2021 - year}
+function totalScore(scoreFor2, scoreFor3) {return (scoreFor2 * 2) + (scoreFor3 * 3)}
